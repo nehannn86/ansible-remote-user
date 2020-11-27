@@ -1,0 +1,9 @@
+[servers]
+server1 ansible_host=172.31.44.220 ansible_password=Host1
+server2 ansible_host=172.31.46.128 ansible_password=Host2
+server3 ansible_host=172.31.40.222 ansible_password=Host3
+
+[servers:vars]
+ansible_port=22
+ansible_connection='ssh'
+ansible_ssh_user='ec2-user'
